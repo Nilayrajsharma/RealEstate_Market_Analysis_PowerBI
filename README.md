@@ -12,6 +12,83 @@ The dashboard is designed for:
 The goal is to transform raw real estate data into actionable business insights for better investment and market strategies.
 
 ---
+# 🔄 Project Workflow
+
+The project follows the below pipeline:
+
+### Step 1: Raw Data Collection (CSV Files)
+The initial datasets were stored in CSV format containing:
+
+- Property details
+- City information
+- Area characteristics
+- Transaction data
+- Date records
+
+Files used:
+
+- **RealEstate.csv**
+- **Property.csv**
+- **City.csv**
+- **Area.csv**
+- **Date.csv**
+
+↓
+
+### Step 2: Data Import into SQL Database
+
+The CSV files were imported into **SQL Server/MySQL** (depending on implementation) for:
+
+- Data storage
+- Cleaning and preprocessing
+- Managing relationships
+- Query optimization
+- Handling large datasets efficiently
+
+Operations performed:
+
+✔ Import CSV to SQL tables  
+✔ Data cleaning  
+✔ Null value handling  
+✔ Relationship creation  
+✔ Data transformation using SQL queries  
+
+Database structure:
+
+```sql
+Fact Table:
+RealEstate
+
+Dimension Tables:
+City
+Property
+Area
+Date
+```
+
+↓
+
+### Step 3: SQL Database Connected to Power BI
+
+The cleaned SQL database was connected directly with **Power BI Server/Desktop**.
+
+Power BI was used for:
+
+- Data modeling
+- Creating relationships
+- Writing DAX measures
+- Building dashboards
+- KPI calculations
+- Interactive visualizations
+
+Connection flow:
+
+```plaintext
+CSV Files → SQL Database → Power BI → Dashboard Insights
+```
+
+---
+
 
 # 📌 Dataset Summary
 
