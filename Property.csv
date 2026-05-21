@@ -1,0 +1,6 @@
+Property_ID,Property_Type,BHK,New_or_Resale,Furnishing
+1,Apartment,1,New,Unfurnished
+2,Villa,2,Resale,Semi
+3,Builder Floor,3,New,Furnished
+4,Studio,1,Resale,Unfurnished
+5,Row House,3,Resale,Semi

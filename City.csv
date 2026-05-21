@@ -1,0 +1,9 @@
+City_ID,City_Name,State,Tier,Latitude,Longitude
+1,Mumbai,MH,Tier 1,19.07,72.88
+2,Pune,MH,Tier 1,18.52,73.86
+3,Bengaluru,KA,Tier 1,12.97,77.59
+4,Delhi,DL,Tier 1,28.61,77.2
+5,Hyderabad,TS,Tier 1,17.38,78.48
+6,Chennai,TN,Tier 1,13.08,80.27
+7,Ahmedabad,GJ,Tier 2,23.02,72.57
+8,Kolkata,WB,Tier 2,22.57,88.36
