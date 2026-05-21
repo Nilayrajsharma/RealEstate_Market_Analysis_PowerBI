@@ -245,4 +245,4 @@ This Real Estate Analytics Dashboard converts raw transactional data into strate
 
 ## 👨‍💻 Author
 
-**Nilayraj Sharma**
+**Nilayraj Anil Sharma**
